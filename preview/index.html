@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Profile README preview</title>
+<base href="/">
+<link id="gh" rel="stylesheet" href="/node_modules/github-markdown-css/github-markdown-light.css">
+<style>
+  :root { --page: #ffffff; --box: #d0d7de; --bar: #f6f8fa; --muted: #59636e; }
+  [data-theme="dark"] { --page: #0d1117; --box: #3d444d; --bar: #151b23; --muted: #9198a1; }
+  body { margin: 0; background: var(--page); font: 14px/1.5 -apple-system, "Segoe UI", system-ui, sans-serif; color: var(--muted); }
+  .controls { display: flex; gap: 8px; padding: 12px 16px; flex-wrap: wrap; align-items: center; }
+  .controls button { font: inherit; padding: 4px 10px; border: 1px solid var(--box); background: var(--bar); color: inherit; border-radius: 6px; cursor: pointer; }
+  .controls button[aria-pressed="true"] { outline: 2px solid #0969da; }
+  .frame { margin: 0 auto 48px; border: 1px solid var(--box); border-radius: 6px; overflow: hidden; }
+  .frame header { padding: 8px 16px; background: var(--bar); border-bottom: 1px solid var(--box); font-size: 12px; }
+  .markdown-body { padding: 24px; background: transparent; }
+  @media (max-width: 500px) { .markdown-body { padding: 16px; } }
+</style>
+</head>
+<body>
+<div class="controls">
+  <span>Theme</span><button data-theme-btn="light">Light</button><button data-theme-btn="dark">Dark</button>
+  <span>Column</span><button data-width-btn="360">360</button><button data-width-btn="830">830</button><button data-width-btn="1012">1012</button>
+</div>
+<div class="frame"><header>WilliamHenryKing / README.md</header><article class="markdown-body" id="readme"></article></div>
+<script type="module">
+  import { marked } from '/node_modules/marked/lib/marked.esm.js';
+
+  const params = new URLSearchParams(location.search);
+  const state = { theme: params.get('theme') ?? 'light', width: Number(params.get('width') ?? 830) };
+  const source = await (await fetch('/README.md', { cache: 'no-store' })).text();
+
+  function render() {
+    document.documentElement.dataset.theme = state.theme;
+    document.getElementById('gh').href = `/node_modules/github-markdown-css/github-markdown-${state.theme}.css`;
+    // the column GitHub gives a profile README, plus the box padding
+    document.querySelector('.frame').style.width = `${state.width + 48}px`;
+    const el = document.getElementById('readme');
+    el.innerHTML = marked.parse(source, { gfm: true });
+    // <picture> follows the OS scheme; resolve it here with the toggle standing in for the
+    // scheme (other conditions, like max-width, still go to the real viewport)
+    for (const pic of el.querySelectorAll('picture')) {
+      const img = pic.querySelector('img');
+      const pick = [...pic.querySelectorAll('source')].find((s) => {
+        const media = s.getAttribute('media') ?? '';
+        const dark = /prefers-color-scheme:\s*dark/.test(media);
+        const rest = media.replace(/\(prefers-color-scheme:\s*dark\)/, '').replace(/^\s*and\s*|\s*and\s*$/g, '').trim();
+        return (!dark || state.theme === 'dark') && (!rest || matchMedia(rest).matches);
+      });
+      if (pick) img.src = pick.getAttribute('srcset');
+      pic.querySelectorAll('source').forEach((s) => s.remove());
+    }
+    for (const b of document.querySelectorAll('[data-theme-btn]')) b.setAttribute('aria-pressed', b.dataset.themeBtn === state.theme);
+    for (const b of document.querySelectorAll('[data-width-btn]')) b.setAttribute('aria-pressed', Number(b.dataset.widthBtn) === state.width);
+    history.replaceState(null, '', `?theme=${state.theme}&width=${state.width}`);
+  }
+  document.addEventListener('click', (e) => {
+    const t = e.target.closest('[data-theme-btn]'), w = e.target.closest('[data-width-btn]');
+    if (t) state.theme = t.dataset.themeBtn;
+    if (w) state.width = Number(w.dataset.widthBtn);
+    if (t || w) render();
+  });
+  render();
+  document.body.dataset.ready = 'true';
+</script>
+</body>
+</html>

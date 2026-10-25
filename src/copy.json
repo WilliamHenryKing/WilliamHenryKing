@@ -1,0 +1,560 @@
+{
+  "hero": {
+    "labelLeft": "FULL-STACK ENGINEER",
+    "labelRight": "CAPE TOWN → LONDON / EU",
+    "name": "William H. King",
+    "byHand": "Software was written by hand.",
+    "atOnce": "The shift is underway. I’ve already boarded.",
+    "desc": "William H. King, full-stack engineer, Cape Town, moving to London or the EU. A line types slowly, key by key: Software was written by hand. Then the next appears all at once: The shift is underway. I’ve already boarded."
+  },
+  "buttons": {
+    "linkedin": "LINKEDIN →"
+  },
+  "quote": {
+    "labelLeft": "ON THE SHIFT",
+    "labelRight": "X · 26 SEPTEMBER 2026",
+    "text": "“I’ve had a wonderful time chiseling proofs by hand, but folks need to accept that era is over…”",
+    "credit": "BOAZ BARAK",
+    "cta": "READ THE POST →",
+    "title": "Boaz Barak, on the shift",
+    "desc": "Quote from Boaz Barak on X, 26 September 2026: I’ve had a wonderful time chiseling proofs by hand, but folks need to accept that era is over."
+  },
+  "works": [
+    {
+      "n": "01",
+      "slug": "01-odd-tide",
+      "title": "ODD TIDE",
+      "kind": "3D EXPERIENCE",
+      "url": "https://01-odd-tide.williamking.workers.dev",
+      "alt": "Odd Tide: an island that changes its mind twice a day. An experiential 3D website.",
+      "src": "01-odd-tide.jpg"
+    },
+    {
+      "n": "07",
+      "slug": "07-please-hold",
+      "title": "PLEASE HOLD",
+      "kind": "BROWSER GAME",
+      "url": "https://07-please-hold.williamking.workers.dev",
+      "alt": "Please Hold: push, grab and throw your way through zero-gravity rooms. A Three.js browser game.",
+      "src": "07-please-hold.jpg"
+    },
+    {
+      "n": "08",
+      "slug": "08-leaf-it-to-me",
+      "title": "LEAF IT TO ME",
+      "kind": "BROWSER GAME",
+      "url": "https://08-leaf-it-to-me.williamking.workers.dev",
+      "alt": "Leaf It To Me: steer a curled-leaf boat and its beetle passenger down three river reaches. A Three.js browser game.",
+      "src": "08-leaf-it-to-me.jpg"
+    },
+    {
+      "n": "10",
+      "slug": "10-the-moon-has-a-gardener",
+      "title": "THE MOON HAS A GARDENER",
+      "kind": "BROWSER GAME",
+      "url": "https://10-the-moon-has-a-gardener.williamking.workers.dev",
+      "alt": "The Moon Has a Gardener: a lunar farm where light and shade are the puzzle. A Three.js browser game.",
+      "src": "10-the-moon-has-a-gardener.jpg"
+    },
+    {
+      "n": "11",
+      "slug": "11-unscheduled-maintenance",
+      "title": "UNSCHEDULED MAINTENANCE",
+      "kind": "BROWSER GAME",
+      "url": "https://11-unscheduled-maintenance.williamking.workers.dev",
+      "alt": "Unscheduled Maintenance: repair a telescope’s optics with mirrors, apertures and receivers. A Three.js browser game.",
+      "src": "11-unscheduled-maintenance.jpg"
+    },
+    {
+      "n": "13",
+      "slug": "13-campfire-confidential",
+      "title": "CAMPFIRE CONFIDENTIAL",
+      "kind": "BROWSER GAME",
+      "url": "https://13-campfire-confidential.williamking.workers.dev",
+      "alt": "Campfire Confidential: tell stories in shadow with a lamp, camping props and a tent wall. A Three.js browser game.",
+      "src": "13-campfire-confidential.jpg"
+    },
+    {
+      "n": "15",
+      "slug": "15-stillform",
+      "title": "STILLFORM",
+      "kind": "CONCEPT SITE",
+      "url": "https://15-stillform.williamking.workers.dev",
+      "alt": "Stillform: a fictional architecture practice site with material studies and a study gallery.",
+      "src": "15-stillform.jpg"
+    },
+    {
+      "n": "18",
+      "slug": "18-aurel",
+      "title": "AUREL",
+      "kind": "CONCEPT SITE",
+      "url": "https://18-aurel.williamking.workers.dev",
+      "alt": "Aurel: a cinematic architecture and interiors concept with an interactive Three.js light pavilion.",
+      "src": "18-aurel.webp"
+    },
+    {
+      "n": "19",
+      "slug": "19-strata",
+      "title": "STRATA",
+      "kind": "CONCEPT SITE",
+      "url": "https://19-strata.williamking.workers.dev",
+      "alt": "Strata: an architecture and finishing atelier with an interactive Three.js material sculpture.",
+      "src": "19-strata.webp"
+    }
+  ],
+  "workshop": {
+    "labelLeft": "SPECIALISM",
+    "labelRight": "3D · SERVERLESS GPUS",
+    "text": "I specialise in building automated 3D asset pipelines, with high-quality renders on serverless GPUs.",
+    "credit": "",
+    "cta": "",
+    "title": "Specialism",
+    "desc": "I specialise in building automated 3D asset pipelines, with high-quality renders on serverless GPUs."
+  },
+  "toolbox": {
+    "labelLeft": "TOOLBOX",
+    "groups": [
+      {
+        "name": "LANGUAGES",
+        "tools": [
+          {
+            "label": "TypeScript",
+            "icon": "typescript"
+          },
+          {
+            "label": "Python",
+            "icon": "python"
+          },
+          {
+            "label": "Java",
+            "icon": "openjdk"
+          },
+          {
+            "label": "SQL",
+            "mono": "SQL",
+            "color": "#336791"
+          },
+          {
+            "label": "C#",
+            "mono": "C#",
+            "color": "#68217A"
+          },
+          {
+            "label": "PowerShell",
+            "mono": ">_",
+            "color": "#2671BE"
+          }
+        ]
+      },
+      {
+        "name": "WEB AND MOTION",
+        "tools": [
+          {
+            "label": "React",
+            "icon": "react"
+          },
+          {
+            "label": "Vite",
+            "icon": "vite"
+          },
+          {
+            "label": "Bun",
+            "icon": "bun"
+          },
+          {
+            "label": "Node.js",
+            "icon": "nodedotjs"
+          },
+          {
+            "label": "three.js",
+            "icon": "threedotjs"
+          },
+          {
+            "label": "GSAP",
+            "icon": "gsap"
+          },
+          {
+            "label": "GSAP ScrollTrigger",
+            "icon": "gsap"
+          }
+        ]
+      },
+      {
+        "name": "3D AND RENDERING",
+        "tools": [
+          {
+            "label": "Blender 5.1.2",
+            "icon": "blender"
+          },
+          {
+            "label": "Cycles",
+            "icon": "blender"
+          },
+          {
+            "label": "NVIDIA OptiX",
+            "icon": "nvidia"
+          },
+          {
+            "label": "OpenImageDenoise",
+            "icon": "intel"
+          },
+          {
+            "label": "AgX colour transform",
+            "mono": "AgX",
+            "color": "#C2410C"
+          },
+          {
+            "label": "Khronos PBR Neutral",
+            "mono": "PBR",
+            "color": "#CC3333"
+          },
+          {
+            "label": "Geometry Nodes",
+            "mono": "GN",
+            "color": "#00A88F"
+          },
+          {
+            "label": "Mitsuba 3",
+            "mono": "M3",
+            "color": "#7C3AED"
+          }
+        ]
+      },
+      {
+        "name": "CAPTURE AND MEDIA",
+        "tools": [
+          {
+            "label": "Headless Chrome / Chrome for Testing",
+            "icon": "googlechrome"
+          },
+          {
+            "label": "Puppeteer-core",
+            "icon": "puppeteer"
+          },
+          {
+            "label": "ANGLE (Vulkan)",
+            "mono": "VK",
+            "color": "#A41E22"
+          },
+          {
+            "label": "ffmpeg",
+            "icon": "ffmpeg"
+          },
+          {
+            "label": "H.264",
+            "mono": "264",
+            "color": "#475569"
+          },
+          {
+            "label": "WebP",
+            "mono": "WebP",
+            "color": "#1A73E8"
+          },
+          {
+            "label": "Pillow",
+            "mono": "PIL",
+            "color": "#2B6CB0"
+          },
+          {
+            "label": "NumPy",
+            "icon": "numpy"
+          }
+        ]
+      },
+      {
+        "name": "BACK END AND DELIVERY",
+        "tools": [
+          {
+            "label": "Spring Boot",
+            "icon": "springboot"
+          },
+          {
+            "label": "Java EE",
+            "mono": "EE",
+            "color": "#F89820"
+          },
+          {
+            "label": ".NET",
+            "icon": "dotnet"
+          },
+          {
+            "label": "SQL Server",
+            "mono": "SQL",
+            "color": "#CC2927"
+          },
+          {
+            "label": "DB2",
+            "mono": "DB2",
+            "color": "#0F62FE"
+          },
+          {
+            "label": "Azure DevOps",
+            "mono": "ADO",
+            "color": "#0078D7"
+          },
+          {
+            "label": "GitHub Actions",
+            "icon": "githubactions"
+          },
+          {
+            "label": "Playwright",
+            "mono": "PW",
+            "color": "#2EAD33"
+          },
+          {
+            "label": "Vitest",
+            "icon": "vitest"
+          }
+        ]
+      },
+      {
+        "name": "INFRASTRUCTURE",
+        "tools": [
+          {
+            "label": "Docker",
+            "icon": "docker"
+          },
+          {
+            "label": "OpenSSH",
+            "icon": "openbsd"
+          },
+          {
+            "label": "AWS",
+            "mono": "AWS",
+            "color": "#FF9900"
+          },
+          {
+            "label": "Runpod",
+            "mono": "RP",
+            "color": "#673AB7"
+          },
+          {
+            "label": "Hetzner",
+            "icon": "hetzner"
+          }
+        ]
+      }
+    ],
+    "labelRight": "43 TOOLS",
+    "title": "Toolbox"
+  },
+  "robot": {
+    "labelLeft": "IN PROGRESS",
+    "labelRight": "HUMANOID ROBOTICS · 2026",
+    "title": "A robot for my mother.",
+    "goal": "My mother’s back makes bending and lifting hard, so I’m building her a humanoid that does it for her: tidying, the dishwasher, wiping surfaces, laundry, fetch and carry. I’m buying the body and building the brain, from teleoperation to scheduled autonomy, always under supervision.",
+    "panels": [
+      {
+        "name": "CLOUD · DECIDES WHAT",
+        "nodes": [
+          {
+            "title": "Gemini Robotics ER 2",
+            "sub": "LIVE TASK PLANNER"
+          },
+          {
+            "title": "π model via Pi API",
+            "sub": "MANIPULATION POLICY"
+          },
+          {
+            "title": "Gemini 4 Argon",
+            "sub": "SIMULATION AND DATA",
+            "secondary": true
+          }
+        ],
+        "arrows": [
+          "ONE SUBTASK AT A TIME"
+        ],
+        "note": "I keep the cloud out of the balance loop: if the link drops, the robot still holds itself up."
+      },
+      {
+        "name": "ROBOT · ACTS, SAFELY",
+        "nodes": [
+          {
+            "title": "Policy runner",
+            "sub": "JETSON AGX THOR"
+          },
+          {
+            "title": "Safety layer",
+            "sub": "HARD LIMITS UNDER EVERY POLICY"
+          },
+          {
+            "title": "Whole-body control",
+            "sub": "UNITREE G1 · ORIN NX"
+          },
+          {
+            "title": "Motors and hands",
+            "sub": "DEX3-1 TACTILE"
+          }
+        ],
+        "note": "Link lost: it falls back to GR00T N1.7 or π0.5 on board, or stops safely."
+      },
+      {
+        "name": "TRAINING · GETS BETTER",
+        "nodes": [
+          {
+            "title": "Teleoperated demos",
+            "sub": "QUEST 3 · LEROBOT"
+          },
+          {
+            "title": "Fine-tune",
+            "sub": "H100 · RTX 5090"
+          },
+          {
+            "title": "Evaluate",
+            "sub": "ISAAC LAB · MUJOCO"
+          },
+          {
+            "title": "Deploy",
+            "sub": "TO THE ROBOT"
+          }
+        ],
+        "note": "Every failure chooses my next demonstration."
+      }
+    ],
+    "links": {
+      "cloudToRobot": "ACTION CHUNKS",
+      "trainingToRobot": "EVALUATED POLICY"
+    },
+    "bar": "I PROMOTE A SKILL ONLY AT 80% SUCCESS OVER 50 TRIALS · ZERO SAFETY-STOP VIOLATIONS",
+    "desc": "In progress: a robot for my mother. Her back makes bending and lifting hard, so I’m building her a humanoid that does it for her: tidying, the dishwasher, wiping surfaces, laundry, fetch and carry, always under supervision. Cloud models decide what to do: Gemini Robotics ER 2 plans, a π model via the Pi API handles manipulation, Gemini 4 Argon builds simulations and data. On the robot, a policy runner on Jetson AGX Thor passes every action through a safety layer to the Unitree G1’s whole-body control and Dex3-1 tactile hands; if the link drops it falls back to GR00T N1.7 or π0.5, or stops safely. A training loop of teleoperated demos, fine-tuning, and evaluation in Isaac Lab and MuJoCo improves it. I promote a skill only at 80% success over 50 trials, with zero safety-stop violations."
+  },
+  "robotStack": {
+    "labelLeft": "BUILD STACK",
+    "labelRight": "HARDWARE · MODELS · SOFTWARE",
+    "groups": [
+      {
+        "name": "HARDWARE",
+        "tools": [
+          {
+            "label": "Unitree G1 EDU",
+            "mono": "G1",
+            "color": "#3B3F45"
+          },
+          {
+            "label": "Dex3-1 tactile hands",
+            "mono": "D3",
+            "color": "#5B6770"
+          },
+          {
+            "label": "Jetson AGX Thor",
+            "icon": "nvidia"
+          },
+          {
+            "label": "Orin NX",
+            "icon": "nvidia"
+          },
+          {
+            "label": "RealSense depth",
+            "icon": "intel"
+          },
+          {
+            "label": "LiDAR",
+            "mono": "LI",
+            "color": "#0E7490"
+          },
+          {
+            "label": "RTX 5090",
+            "icon": "nvidia"
+          },
+          {
+            "label": "H100, rented",
+            "icon": "nvidia"
+          },
+          {
+            "label": "Meta Quest 3",
+            "icon": "meta"
+          }
+        ]
+      },
+      {
+        "name": "MODELS",
+        "tools": [
+          {
+            "label": "Gemini Robotics ER 2",
+            "icon": "googlegemini"
+          },
+          {
+            "label": "Gemini 4 Argon",
+            "icon": "googlegemini"
+          },
+          {
+            "label": "π via Pi API",
+            "mono": "π",
+            "color": "#1F2937"
+          },
+          {
+            "label": "GR00T N1.7",
+            "icon": "nvidia"
+          },
+          {
+            "label": "π0.5 · openpi",
+            "mono": "π",
+            "color": "#4B5563"
+          }
+        ]
+      },
+      {
+        "name": "SOFTWARE",
+        "tools": [
+          {
+            "label": "LeRobot",
+            "icon": "huggingface"
+          },
+          {
+            "label": "ROS 2 Jazzy",
+            "icon": "ros"
+          },
+          {
+            "label": "Isaac ROS",
+            "icon": "nvidia"
+          },
+          {
+            "label": "Isaac Lab",
+            "icon": "nvidia"
+          },
+          {
+            "label": "MuJoCo",
+            "icon": "deepmind"
+          },
+          {
+            "label": "GR00T-WholeBodyControl",
+            "icon": "nvidia"
+          },
+          {
+            "label": "SONIC",
+            "mono": "SN",
+            "color": "#0F766E"
+          },
+          {
+            "label": "Nav2",
+            "icon": "ros"
+          },
+          {
+            "label": "Pinocchio",
+            "mono": "Pn",
+            "color": "#B45309"
+          },
+          {
+            "label": "Unitree SDK2",
+            "mono": "G1",
+            "color": "#3B3F45"
+          },
+          {
+            "label": "Ubuntu 24.04",
+            "icon": "ubuntu"
+          }
+        ]
+      }
+    ],
+    "title": "Robot build stack"
+  },
+  "vision": {
+    "labelLeft": "WHERE THIS GOES",
+    "labelRight": "AUTOMATION, NEXT",
+    "text": "Software was the first thing automation changed. The physical world is next: machines that take the heavy, repetitive work off the people we love, with safety limits they can’t argue past and a person always in charge. That’s what I’m building towards.",
+    "credit": "",
+    "cta": "",
+    "title": "Where this goes",
+    "desc": "Where this goes: Software was the first thing automation changed. The physical world is next: machines that take the heavy, repetitive work off the people we love, with safety limits they can’t argue past and a person always in charge. That’s what I’m building towards."
+  }
+}

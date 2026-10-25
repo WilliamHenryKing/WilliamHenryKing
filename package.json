@@ -1,0 +1,24 @@
+{
+  "name": "williamhenryking-profile",
+  "private": true,
+  "type": "module",
+  "description": "Profile README for github.com/WilliamHenryKing. All SVGs are generated from src/.",
+  "scripts": {
+    "build": "node src/build.mjs",
+    "preview": "node scripts/serve.mjs",
+    "shots": "node scripts/shots.mjs",
+    "qa": "node scripts/qa.mjs"
+  },
+  "devDependencies": {
+    "@fontsource/archivo": "^5.3.0",
+    "@fontsource/inter-tight": "^5.3.0",
+    "@fontsource/jetbrains-mono": "^5.3.0",
+    "@fontsource/schibsted-grotesk": "^5.3.0",
+    "github-markdown-css": "^5.9.0",
+    "marked": "^18.1.1",
+    "opentype.js": "^2.0.0",
+    "playwright": "^1.64.1",
+    "simple-icons": "^16.35.0",
+    "svgo": "^4.1.0"
+  }
+}

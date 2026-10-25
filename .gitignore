@@ -1,0 +1,5 @@
+node_modules/
+preview/shots/
+preview/github-render.html
+*.log
+.private-terms
