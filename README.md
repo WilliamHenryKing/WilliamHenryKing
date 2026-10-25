@@ -19,7 +19,7 @@
 </p>
 <!-- works:end -->
 
-<sub>Nine of twenty public pieces. Each one is live; select a tile to open it.</sub>
+<sub>Nine of twenty pieces, all live. Select a tile to open one.</sub>
 
 <picture>
   <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/robot-dark-narrow.svg">
